@@ -1,10 +1,12 @@
-import LoadingPage from "@/views/LoadingPage";
 import TheHeader from "@components/TheHeader";
 import TheSideBar from "@components/TheSidebar";
 import React, { Suspense } from "react";
-import { Outlet } from "react-router-dom";
 
-const MainLayout: React.FC = () => {
+interface IProps {
+  children: React.ReactNode;
+}
+
+const MainLayout: React.FC<IProps> = ({ children }: IProps) => {
   return (
     <div className="container-fluid min-vh-100 d-flex flex-column">
       <TheHeader />
@@ -14,9 +16,7 @@ const MainLayout: React.FC = () => {
         </div>
 
         <div className="col-10 p-4">
-          <Suspense fallback={<LoadingPage />}>
-            <Outlet />
-          </Suspense>
+          <Suspense fallback={<></>}>{children}</Suspense>
         </div>
       </main>
     </div>

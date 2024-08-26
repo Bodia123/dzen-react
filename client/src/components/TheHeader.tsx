@@ -1,5 +1,5 @@
 import { RootState } from "@/store/store";
-import { FormattedDate } from "@/types/formattedDate";
+import { FormattedDate } from "@/types/FormattedDate";
 import formatDate from "@utils/date";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -9,9 +9,8 @@ import logo from "@/assets/logo.png";
 
 const TheHeader = () => {
   const { t, i18n } = useTranslation();
-
   const { locale } = useSelector((state: RootState) => state.locale);
-  console.log(locale);
+
   const connectedCount = useSelector(
     (state: RootState) => state.socket.activeTabs
   );

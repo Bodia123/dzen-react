@@ -19,8 +19,6 @@ const CustomCard: React.FC<IProps> = ({
   const { t } = useTranslation();
 
   const selectAndRemove = () => {
-    console.log(order, selectedOrder);
-
     if (selectedOrder?.id !== order.id) {
       setSelectedOrder(order);
     }

@@ -6,7 +6,7 @@ import {
   disconnectSocket,
 } from "@/store/middleware/socketThunks";
 import { Routes, Route } from "react-router-dom";
-import MainLayout from "@/layouts/MainLayout";
+import AnimationLayout from "./layouts/AnimationLayout";
 
 const ProductsPage = lazy(() => import("@/views/ProductsPage"));
 const GroupsPage = lazy(() => import("@/views/GroupsPage"));
@@ -27,7 +27,7 @@ const App: React.FC = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<MainLayout />}>
+        <Route path="/" element={<AnimationLayout />}>
           <Route index element={<IncomingPage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/groups" element={<GroupsPage />} />
