@@ -1,0 +1,200 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "serialNumber": 5678,
+      "isNew": 1,
+      "photo": "https://content1.rozetka.com.ua/goods/images/big/338577783.jpg",
+      "title": "Мощный ноутбук",
+      "type": "Laptops",
+      "specification": "Intel Core i7, 16GB RAM, 512GB SSD",
+      "guarantee": {
+        "start": "2023-01-15 10:00:00",
+        "end": "2024-01-15 10:00:00"
+      },
+      "price": [
+        { "value": 1200, "symbol": "USD", "isDefault": 1 },
+        { "value": 32000, "symbol": "UAH", "isDefault": 0 }
+      ],
+      "date": "2023-01-15 10:00:00"
+    },
+    {
+      "id": 2,
+      "serialNumber": 5679,
+      "isNew": 0,
+      "photo": "https://m.media-amazon.com/images/I/61V5WNtmrUL._AC_UF1000,1000_QL80_.jpg",
+      "title": "Игровая мышь",
+      "type": "Accessories",
+      "specification": "RGB, 16000 DPI, 7 buttons",
+      "guarantee": {
+        "start": "2023-03-05 09:00:00",
+        "end": "2024-03-05 09:00:00"
+      },
+      "price": [
+        { "value": 50, "symbol": "USD", "isDefault": 1 },
+        { "value": 1300, "symbol": "UAH", "isDefault": 0 }
+      ],
+      "date": "2023-03-05 09:00:00"
+    },
+    {
+      "id": 3,
+      "serialNumber": 5680,
+      "isNew": 1,
+      "photo": "https://ttpremium.com/wp-content/uploads/2019/01/KB-LVT-SSBRUS-01_4275c12f818545f8989ae8698ff53db7.jpg",
+      "title": "Клавиатура механическая",
+      "type": "Accessories",
+      "specification": "Cherry MX Blue, RGB Backlight",
+      "guarantee": {
+        "start": "2023-05-10 08:30:00",
+        "end": "2024-05-10 08:30:00"
+      },
+      "price": [
+        { "value": 120, "symbol": "USD", "isDefault": 1 },
+        { "value": 3100, "symbol": "UAH", "isDefault": 0 }
+      ],
+      "date": "2023-05-10 08:30:00"
+    }
+  ],
+  "orders": [
+    {
+      "id": 3,
+      "title": "Order 3",
+      "date": "2023-01-20 14:30:00",
+      "description": "Покупка ноутбука",
+      "products": [
+        {
+          "id": 1,
+          "serialNumber": 5678,
+          "isNew": 1,
+          "photo": "https://content1.rozetka.com.ua/goods/images/big/338577783.jpg",
+          "title": "Мощный ноутбук",
+          "type": "Laptops",
+          "specification": "Intel Core i7, 16GB RAM, 512GB SSD",
+          "guarantee": {
+            "start": "2023-01-15 10:00:00",
+            "end": "2024-01-15 10:00:00"
+          },
+          "price": [
+            { "value": 1200, "symbol": "USD", "isDefault": 1 },
+            { "value": 32000, "symbol": "UAH", "isDefault": 0 }
+          ],
+          "order": {
+            "id": 3,
+            "title": "Order 3",
+            "date": "2023-01-20 14:30:00",
+            "description": "Покупка ноутбука"
+          },
+          "date": "2023-01-15 10:00:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Order 4",
+      "date": "2023-03-06 12:00:00",
+      "description": "Заказ игровой мыши",
+      "products": [
+        {
+          "id": 2,
+          "serialNumber": 5679,
+          "isNew": 0,
+          "photo": "https://m.media-amazon.com/images/I/61V5WNtmrUL._AC_UF1000,1000_QL80_.jpg",
+          "title": "Игровая мышь",
+          "type": "Accessories",
+          "specification": "RGB, 16000 DPI, 7 buttons",
+          "guarantee": {
+            "start": "2023-03-05 09:00:00",
+            "end": "2024-03-05 09:00:00"
+          },
+          "price": [
+            { "value": 50, "symbol": "USD", "isDefault": 1 },
+            { "value": 1300, "symbol": "UAH", "isDefault": 0 }
+          ],
+          "order": {
+            "id": 4,
+            "title": "Order 4",
+            "date": "2023-03-06 12:00:00",
+            "description": "Заказ игровой мыши"
+          },
+          "date": "2023-03-05 09:00:00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Order 5",
+      "date": "2023-05-11 11:15:00",
+      "description": "Покупка механической клавиатуры",
+      "products": [
+        {
+          "id": 3,
+          "serialNumber": 5680,
+          "isNew": 1,
+          "photo": "https://ttpremium.com/wp-content/uploads/2019/01/KB-LVT-SSBRUS-01_4275c12f818545f8989ae8698ff53db7.jpg",
+          "title": "Клавиатура механическая",
+          "type": "Accessories",
+          "specification": "Cherry MX Blue, RGB Backlight",
+          "guarantee": {
+            "start": "2023-05-10 08:30:00",
+            "end": "2024-05-10 08:30:00"
+          },
+          "price": [
+            { "value": 120, "symbol": "USD", "isDefault": 1 },
+            { "value": 3100, "symbol": "UAH", "isDefault": 0 }
+          ],
+          "order": {
+            "id": 5,
+            "title": "Order 5",
+            "date": "2023-05-11 11:15:00",
+            "description": "Покупка механической клавиатуры"
+          },
+          "date": "2023-05-10 08:30:00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Заказ новый",
+      "date": "2023-05-11 11:15:00",
+      "description": "Покупка механической клавиатуры и игровой мыши",
+      "products": [
+        {
+          "id": 2,
+          "serialNumber": 5679,
+          "isNew": 0,
+          "photo": "https://m.media-amazon.com/images/I/61V5WNtmrUL._AC_UF1000,1000_QL80_.jpg",
+          "title": "Игровая мышь",
+          "type": "Accessories",
+          "specification": "RGB, 16000 DPI, 7 buttons",
+          "guarantee": {
+            "start": "2023-03-05 09:00:00",
+            "end": "2024-03-05 09:00:00"
+          },
+          "price": [
+            { "value": 50, "symbol": "USD", "isDefault": 1 },
+            { "value": 1300, "symbol": "UAH", "isDefault": 0 }
+          ],
+          "date": "2023-03-05 09:00:00"
+        },
+        {
+          "id": 3,
+          "serialNumber": 5680,
+          "isNew": 1,
+          "photo": "https://ttpremium.com/wp-content/uploads/2019/01/KB-LVT-SSBRUS-01_4275c12f818545f8989ae8698ff53db7.jpg",
+          "title": "Клавиатура механическая",
+          "type": "Accessories",
+          "specification": "Cherry MX Blue, RGB Backlight",
+          "guarantee": {
+            "start": "2023-05-10 08:30:00",
+            "end": "2024-05-10 08:30:00"
+          },
+          "price": [
+            { "value": 120, "symbol": "USD", "isDefault": 1 },
+            { "value": 3100, "symbol": "UAH", "isDefault": 0 }
+          ],
+          "date": "2023-05-10 08:30:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "englishLang": "English language",
+  "russianLang": "Russian language",
+  "loading": "Loading",
+  "searchPlaceholder": "Search",
+  "activePages": "Active pages",
+  "incoming": "Incoming",
+  "products": "Products",
+  "groups": "Groups",
+  "users": "Users",
+  "settings": "Settings",
+  "noProductsWithSuchType": "No products with such type",
+  "monitors": "Monitors",
+  "laptops": "Laptops",
+  "accessories": "Accessories",
+  "all": "All",
+  "from": "From",
+  "to": "To",
+  "settingsPageTitle": "Settings"
+}

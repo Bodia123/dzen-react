@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  cursor: default;
+}
+.activeRouterLink {
+  position: relative;
+}
+.activeRouterLink::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.avatarContainer {
+  position: relative;
+  display: inline-block;
+  background-color: gray;
+  border-radius: 50%;
+}
+.avatarContainer img.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.avatarContainer img.settingsIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 2px;
+}

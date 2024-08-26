@@ -1,0 +1,16 @@
+{
+  "name": "dzen",
+  "version": "1.0.0",
+  "scripts": {
+    "installDep": "npm install && cd client && npm install && cd ../server && npm install",
+    "startServer": " cd server && npm start",
+    "startClient": "cd client && npm run dev",
+    "start": "concurrently  \"npm run startServer\" \"npm run startClient\" "
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
