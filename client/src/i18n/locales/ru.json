@@ -23,5 +23,6 @@
   "create": "Создать",
   "create order": "Создать приход",
   "noIncoming": "Нет приходов",
-  "noProducts": "Нет продуктов"
+  "noProducts": "Нет продуктов",
+  "item": "ед."
 }

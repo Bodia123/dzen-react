@@ -48,7 +48,9 @@ const CustomCard: React.FC<IProps> = ({
           className={"d-flex align-items-center justify-content-between me-3"}
           style={{ minWidth: "400px" }}
           onClick={() => setSelectedOrder(order)}>
-          <span className="text-muted">{order.products.length} ед.</span>
+          <span className="text-muted">
+            {order.products.length} {t("item")}
+          </span>
           <span className="text-muted ml-3">{order.date}</span>
           <div className="d-flex flex-column align-items-center">
             <span className="fs-6 ml-3">
